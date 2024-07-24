@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Darker background */
+    color: #f0f0f0; /* Light text color */
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #2a2a2a; /* Darker container background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    outline: none;
+    background-color: #3a3a3a; /* Darker input background */
+    color: #f0f0f0; /* Light text color */
+}
+
+.input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Adds space between input and buttons */
+    color: white;
+}
+
+#input-btn {
+    background-color: #28a745; /* Green color */
+}
+
+#input-btn:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
+
+#reset-btn {
+    background-color: #dc3545; /* Red color */
+}
+
+#reset-btn:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+.list-container {
+    background-color: #3a3a3a; /* Darker list container background */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-container ul li {
+    padding: 8px;
+    margin-bottom: 4px;
+    background-color: #4a4a4a; /* Darker list item background */
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    color: #f0f0f0; /* Light text color */
+}
+
+.list-container ul li a {
+    color: #1e90ff; /* Light blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list-container ul li a:hover {
+    color: #00bfff; /* Brighter blue on hover */
+    text-decoration: underline;
+}
